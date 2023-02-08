@@ -21,6 +21,19 @@ Aplicando K-means se obtienen los centroides de los componentes de colores y se 
 ---
 ## 3 - Segmentación de objetos
 Una vez que se tiene los diferentes componentes, seleecionamos aquella imágen que contienen los objetos que deseamos buscar (tomates) y segmentar.
-Para poder realizar el siguiente paso realizaremos otro **K-means**, pero ahora basados en **distancias**.
+Para poder realizar el siguiente paso realizaremos otro **K-means**, pero ahora basados en **coordenadas**.
 
 <img src="img/segmentacion_figuras.png">
+
+---
+## 4 - Medición distancias
+Ya con los objetos segementandos en diferentes imágenes se procede a obtender los extremos de cada unos de los tomates que deseamos medir.
+- Tomate 2 
+<img src="img/distancia_tomate1.png">
+
+- Tomate 4
+<img src= "img/distancia_tomate2.png">
+
+## 5 - Resultados Finales
+Una vez encontrados los extremos de los objetos, se gráfican el diametro de estos sobre la imagen final.
+<img src="img/distancias_tomates.png">
